@@ -33,6 +33,17 @@ header nav ul li a {
 main {
     padding: 20px;
 }
+/* Aside Styles */
+aside {
+    width: 215px;
+    float: right;
+    padding: 0 0 20px 20px;
+}
+
+aside img {
+    padding-bottom: 1em;
+}
+
 
 footer {
     background: linear-gradient(to left, #333, #555);
@@ -69,15 +80,4 @@ footer {
 
 .sidebar ul li {
     margin-bottom: 10px;
-}
-
-/* Aside Styles */
-aside {
-    width: 215px;
-    float: right;
-    padding: 0 0 20px 20px;
-}
-
-aside img {
-    padding-bottom: 1em;
 }
