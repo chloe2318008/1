@@ -71,3 +71,13 @@ footer {
     margin-bottom: 10px;
 }
 
+/* Aside Styles */
+aside {
+    width: 215px;
+    float: right;
+    padding: 0 0 20px 20px;
+}
+
+aside img {
+    padding-bottom: 1em;
+}
