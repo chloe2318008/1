@@ -6,6 +6,9 @@ body {
     border: 8px solid #570987;
     background: #fff;
     color: #D397F8;
+    max-width: 1024px;
+    width: 95%;
+    margin: 0 auto;
 }
 
 header {
@@ -18,53 +21,79 @@ header {
 header nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 header nav ul li {
     display: inline;
-    margin: 0 10px;
 }
 
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+header nav ul li a:hover {
+    background: #fff;
+    color: #70F020;
+    border-radius: 5px;
 }
 
 main {
-    width: 500px;
     padding: 20px;
     clear: left;
 }
+
 /* Aside Styles */
 aside {
-    width: 200px;
+    width: 30%;
     float: right;
     padding: 0 0 20px 20px;
 }
 
 aside img {
     padding-bottom: 1em;
+    max-width: 100%;
+    height: auto;
 }
 
+aside ul {
+    list-style: none;
+    padding: 0;
+}
 
+aside ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
 footer {
     background: linear-gradient(to left, #70F020, #F0A020);
     color: #fff;
     text-align: center;
     padding: 10px;
+    clear: both;
 }
 
 /* Flexbox for Gallery */
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
 }
 
 .flex-container img {
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     border: 2px solid #ddd;
     border-radius: 5px;
+    height: auto;
 }
 
 /* Floated Image */
@@ -72,14 +101,9 @@ footer {
     float: left;
     margin: 10px;
     max-width: 200px;
+    height: auto;
 }
 
-/* Sidebar Links */
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-}
+/* Responsive Media Queries */
 
-.sidebar ul li {
-    margin-bottom: 10px;
-}
+/* Viewport for 900px and
