@@ -45,11 +45,15 @@ header nav ul li a:hover {
 }
 
 main {
-    width: 60%;
+    width: 100%;
     padding: 20px;
     clear: left;
 }
 
+section {
+    width: 65%;
+    float: right;
+}
 /* Aside Styles */
 aside {
     width: 30%;
