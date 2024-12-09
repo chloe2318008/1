@@ -54,14 +54,14 @@ section {
 }
 /* Aside Styles */
 aside {
-    width: 50%;
+    width: 40%;
     float: right;
 }
 
 aside img {
     padding-bottom: 1em;
     max-width: 100%;
-    height: 75%;
+    height: 70%;
 }
 
 aside ul {
