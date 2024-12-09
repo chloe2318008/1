@@ -31,13 +31,13 @@ header nav ul li a {
 }
 
 main {
-    width: 550px;
+    width: 500px;
     padding: 20px;
     clear: left;
 }
 /* Aside Styles */
 aside {
-    width: 215px;
+    width: 200px;
     float: right;
     padding: 0 0 20px 20px;
 }
