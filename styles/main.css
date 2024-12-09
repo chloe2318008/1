@@ -3,9 +3,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    border: 8px solid light purple;
-    background: purple;
-    color: dark pueple;
+    border: 8px solid #570987;
+    background: #7D0DC3;
+    color: #D397F8;
 }
 
 header {
