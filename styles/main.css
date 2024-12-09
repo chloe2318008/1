@@ -45,6 +45,7 @@ header nav ul li a:hover {
 }
 
 main {
+    width: 65%;
     padding: 20px;
     clear: left;
 }
